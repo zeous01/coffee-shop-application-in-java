@@ -1,0 +1,60 @@
+
+.root{
+-fx-background-image: url("OIG.jpeg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+.button {
+    -fx-background-color: #333;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #555;
+}
+.label {
+    -fx-text-fill: white;
+}
+
+#title-label {
+    -fx-opacity: 0;
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+#title-label.visible {
+    -fx-opacity: 1;
+    -fx-transition: opacity 2s;
+}
+
+
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+}
+
+.menu-item {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+    -fx-font-family: "Roboto", sans-serif;
+
+}
+
+.menu-item:hover {
+    -fx-background-color: #427E93;
+}
+
+.menu-item:selected {
+    -fx-background-color: #7D8C1F;
+    -fx-text-fill: #fff;
+}
+
+
+
